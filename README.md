@@ -113,5 +113,5 @@ psql -d postgres -f sql/annual_unemployment_average.sql  -o ../report/annual_une
 5. To schedule to run midnight everyday
 ```bash
 crontab -e
-```
 0 00 * * * /Users/postgres/fred/bin/run.py
+```
